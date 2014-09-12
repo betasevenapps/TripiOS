@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BA9675119C0BAEF004945D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA9675019C0BAEF004945D8 /* AppDelegate.swift */; };
+		2BA9675419C0BAEF004945D8 /* ConceitoSwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2BA9675219C0BAEF004945D8 /* ConceitoSwift.xcdatamodeld */; };
+		2BA9675919C0BAEF004945D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BA9675719C0BAEF004945D8 /* Main.storyboard */; };
+		2BA9675B19C0BAEF004945D8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BA9675A19C0BAEF004945D8 /* Images.xcassets */; };
+		2BA9675E19C0BAEF004945D8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BA9675C19C0BAEF004945D8 /* LaunchScreen.xib */; };
+		2BA9676A19C0BAEF004945D8 /* ConceitoSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA9676919C0BAEF004945D8 /* ConceitoSwiftTests.swift */; };
+		2BA9677419C0BDE3004945D8 /* ListaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA9677319C0BDE3004945D8 /* ListaTableViewController.swift */; };
+		2BA9677619C0BE6F004945D8 /* CadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA9677519C0BE6F004945D8 /* CadastroViewController.swift */; };
+		2BA9677819C0BEA2004945D8 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA9677719C0BEA2004945D8 /* Model.swift */; };
+		2BB3899319C33CD700784846 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB3899219C33CD700784846 /* Utils.swift */; };
+		2BB3899519C3421400784846 /* CustomNavigationBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB3899419C3421400784846 /* CustomNavigationBarController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BA9676419C0BAEF004945D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BA9674319C0BAEE004945D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BA9674A19C0BAEE004945D8;
+			remoteInfo = ConceitoSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2BA9674B19C0BAEF004945D8 /* ConceitoSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConceitoSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BA9674F19C0BAEF004945D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BA9675019C0BAEF004945D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2BA9675319C0BAEF004945D8 /* ConceitoSwift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ConceitoSwift.xcdatamodel; sourceTree = "<group>"; };
+		2BA9675819C0BAEF004945D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2BA9675A19C0BAEF004945D8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2BA9675D19C0BAEF004945D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2BA9676319C0BAEF004945D8 /* ConceitoSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConceitoSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BA9676819C0BAEF004945D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BA9676919C0BAEF004945D8 /* ConceitoSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConceitoSwiftTests.swift; sourceTree = "<group>"; };
+		2BA9677319C0BDE3004945D8 /* ListaTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaTableViewController.swift; sourceTree = "<group>"; };
+		2BA9677519C0BE6F004945D8 /* CadastroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CadastroViewController.swift; sourceTree = "<group>"; };
+		2BA9677719C0BEA2004945D8 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		2BB3899219C33CD700784846 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		2BB3899419C3421400784846 /* CustomNavigationBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavigationBarController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BA9674819C0BAEE004945D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BA9676019C0BAEF004945D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BA9674219C0BAEE004945D8 = {
+			isa = PBXGroup;
+			children = (
+				2BA9674D19C0BAEF004945D8 /* ConceitoSwift */,
+				2BA9676619C0BAEF004945D8 /* ConceitoSwiftTests */,
+				2BA9674C19C0BAEF004945D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BA9674C19C0BAEF004945D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BA9674B19C0BAEF004945D8 /* ConceitoSwift.app */,
+				2BA9676319C0BAEF004945D8 /* ConceitoSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BA9674D19C0BAEF004945D8 /* ConceitoSwift */ = {
+			isa = PBXGroup;
+			children = (
+				2BB3899419C3421400784846 /* CustomNavigationBarController.swift */,
+				2BB3899219C33CD700784846 /* Utils.swift */,
+				2BA9675019C0BAEF004945D8 /* AppDelegate.swift */,
+				2BA9677719C0BEA2004945D8 /* Model.swift */,
+				2BA9677319C0BDE3004945D8 /* ListaTableViewController.swift */,
+				2BA9677519C0BE6F004945D8 /* CadastroViewController.swift */,
+				2BA9675719C0BAEF004945D8 /* Main.storyboard */,
+				2BA9675A19C0BAEF004945D8 /* Images.xcassets */,
+				2BA9675C19C0BAEF004945D8 /* LaunchScreen.xib */,
+				2BA9675219C0BAEF004945D8 /* ConceitoSwift.xcdatamodeld */,
+				2BA9674E19C0BAEF004945D8 /* Supporting Files */,
+			);
+			path = ConceitoSwift;
+			sourceTree = "<group>";
+		};
+		2BA9674E19C0BAEF004945D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BA9674F19C0BAEF004945D8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2BA9676619C0BAEF004945D8 /* ConceitoSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				2BA9676919C0BAEF004945D8 /* ConceitoSwiftTests.swift */,
+				2BA9676719C0BAEF004945D8 /* Supporting Files */,
+			);
+			path = ConceitoSwiftTests;
+			sourceTree = "<group>";
+		};
+		2BA9676719C0BAEF004945D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BA9676819C0BAEF004945D8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BA9674A19C0BAEE004945D8 /* ConceitoSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BA9676D19C0BAEF004945D8 /* Build configuration list for PBXNativeTarget "ConceitoSwift" */;
+			buildPhases = (
+				2BA9674719C0BAEE004945D8 /* Sources */,
+				2BA9674819C0BAEE004945D8 /* Frameworks */,
+				2BA9674919C0BAEE004945D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConceitoSwift;
+			productName = ConceitoSwift;
+			productReference = 2BA9674B19C0BAEF004945D8 /* ConceitoSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BA9676219C0BAEF004945D8 /* ConceitoSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BA9677019C0BAEF004945D8 /* Build configuration list for PBXNativeTarget "ConceitoSwiftTests" */;
+			buildPhases = (
+				2BA9675F19C0BAEF004945D8 /* Sources */,
+				2BA9676019C0BAEF004945D8 /* Frameworks */,
+				2BA9676119C0BAEF004945D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BA9676519C0BAEF004945D8 /* PBXTargetDependency */,
+			);
+			name = ConceitoSwiftTests;
+			productName = ConceitoSwiftTests;
+			productReference = 2BA9676319C0BAEF004945D8 /* ConceitoSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BA9674319C0BAEE004945D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Roberto;
+				TargetAttributes = {
+					2BA9674A19C0BAEE004945D8 = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = KRXY7Q4555;
+					};
+					2BA9676219C0BAEF004945D8 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 2BA9674A19C0BAEE004945D8;
+					};
+				};
+			};
+			buildConfigurationList = 2BA9674619C0BAEE004945D8 /* Build configuration list for PBXProject "ConceitoSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BA9674219C0BAEE004945D8;
+			productRefGroup = 2BA9674C19C0BAEF004945D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BA9674A19C0BAEE004945D8 /* ConceitoSwift */,
+				2BA9676219C0BAEF004945D8 /* ConceitoSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BA9674919C0BAEE004945D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BA9675919C0BAEF004945D8 /* Main.storyboard in Resources */,
+				2BA9675E19C0BAEF004945D8 /* LaunchScreen.xib in Resources */,
+				2BA9675B19C0BAEF004945D8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BA9676119C0BAEF004945D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BA9674719C0BAEE004945D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BA9677419C0BDE3004945D8 /* ListaTableViewController.swift in Sources */,
+				2BA9675119C0BAEF004945D8 /* AppDelegate.swift in Sources */,
+				2BB3899519C3421400784846 /* CustomNavigationBarController.swift in Sources */,
+				2BA9677819C0BEA2004945D8 /* Model.swift in Sources */,
+				2BA9677619C0BE6F004945D8 /* CadastroViewController.swift in Sources */,
+				2BA9675419C0BAEF004945D8 /* ConceitoSwift.xcdatamodeld in Sources */,
+				2BB3899319C33CD700784846 /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BA9675F19C0BAEF004945D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BA9676A19C0BAEF004945D8 /* ConceitoSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BA9676519C0BAEF004945D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BA9674A19C0BAEE004945D8 /* ConceitoSwift */;
+			targetProxy = 2BA9676419C0BAEF004945D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2BA9675719C0BAEF004945D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BA9675819C0BAEF004945D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2BA9675C19C0BAEF004945D8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BA9675D19C0BAEF004945D8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BA9676B19C0BAEF004945D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2BA9676C19C0BAEF004945D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BA9676E19C0BAEF004945D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ConceitoSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2BA9676F19C0BAEF004945D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ConceitoSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2BA9677119C0BAEF004945D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ConceitoSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConceitoSwift.app/ConceitoSwift";
+			};
+			name = Debug;
+		};
+		2BA9677219C0BAEF004945D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ConceitoSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConceitoSwift.app/ConceitoSwift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BA9674619C0BAEE004945D8 /* Build configuration list for PBXProject "ConceitoSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BA9676B19C0BAEF004945D8 /* Debug */,
+				2BA9676C19C0BAEF004945D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BA9676D19C0BAEF004945D8 /* Build configuration list for PBXNativeTarget "ConceitoSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BA9676E19C0BAEF004945D8 /* Debug */,
+				2BA9676F19C0BAEF004945D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BA9677019C0BAEF004945D8 /* Build configuration list for PBXNativeTarget "ConceitoSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BA9677119C0BAEF004945D8 /* Debug */,
+				2BA9677219C0BAEF004945D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2BA9675219C0BAEF004945D8 /* ConceitoSwift.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2BA9675319C0BAEF004945D8 /* ConceitoSwift.xcdatamodel */,
+			);
+			currentVersion = 2BA9675319C0BAEF004945D8 /* ConceitoSwift.xcdatamodel */;
+			path = ConceitoSwift.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2BA9674319C0BAEE004945D8 /* Project object */;
+}
